@@ -1,0 +1,151 @@
+﻿
+@{
+	Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Startup details</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="~/lib/bulma/bulma.css">
+	<link rel="stylesheet" type="text/css" href="~/lib/slick/slick.css">
+	<link rel="stylesheet" type="text/css" href="~/lib/slick/slick-theme.css">
+	<link rel="stylesheet" href="~/css/styles.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+</head>
+
+<body>
+	<section class="hero is-medium">
+		<div class="hero-head">
+			<nav class="navbar">
+				<div class="container">
+					<div class="navbar-brand">
+						<a class="navbar-item" asp-area="" asp-controller="MiStartup" asp-action="Index">
+							<h1 class="title">Invest and GO</h1>
+						</a>
+						<span class="navbar-burger burger" data-target="navbarMenuHeroA">
+							<span></span>
+							<span></span>
+							<span></span>
+						</span>
+					</div>
+					<div id="navbarMenuHeroA" class="navbar-menu">
+						<div class="navbar-end">
+							<div class="field has-addons searchIcon">
+								<div class="control">
+									<input class="input" type="text" placeholder="Find a Categorie">
+								</div>
+								<div class="control" style="
+									margin-left: 3px;
+									/* height: 37px; */">
+									<a class="button is-link">
+										<i class="fas fa-search"></i>
+									</a>
+								</div>
+							</div>
+							<a class="navbar-item" style="margin-left: 43px;" asp-area="" asp-controller="MiStartup" asp-action="Dashboard">
+								<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M20 0C8.96 0 0 8.96 0 20C0 31.04 8.96 40 20 40C31.04 40 40 31.04 40 20C40 8.96 31.04 0 20 0ZM20 6C23.32 6 26 8.68 26 12C26 15.32 23.32 18 20 18C16.68 18 14 15.32 14 12C14 8.68 16.68 6 20 6ZM20 34.4C15 34.4 10.58 31.84 8 27.96C8.06 23.98 16 21.8 20 21.8C23.98 21.8 31.94 23.98 32 27.96C29.42 31.84 25 34.4 20 34.4Z"
+										  fill="white" />
+								</svg>
+							</a>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</div>
+		<br>
+		<h1 class="title" style="color:#787878; text-align: center">STARTUP NAME</h1>
+		<div style="text-align:center">
+
+			<span class="tag">
+				ROBOTIC
+			</span>
+
+		</div>
+
+		<br>
+		<br>
+
+		<div class="columns">
+
+			<div class="column is-three-fifths is-4 is-offset-2 infoContenair ">
+				<!-- <input type="number" name="" id="">
+			<a class="button is-info">INVEST</a> -->
+				<h3 class="subtitle" style="color:#787878; text-align: center">STARTUP NAME</h3>
+
+				<img src="~/images/achievement-agreement-arms-1068523.jpg" width="250px" style="border-radius : 2px; display: block; margin: 0 auto; text-align: center"
+					 alt="">
+				<h3 class="subtitle" style="color:#787878; text-align: center">FUNDING RECIEVE : 555.000€</h3>
+				<br>
+				<div class="columns subInfoContainer">
+					<br>
+					<ul class="column" style="margin-left:10px;">
+						<li>STARTUP NAME :</li>
+						<br>
+						<li>FONDATOR(S) NAME : </li>
+						<br>
+						<li>TVA N° :</li>
+						<br>
+						<li>CATEGORIE :</li>
+						<br>
+						<li>END OF THE FOUNDING :</li>
+						<br>
+						<li>FACTOR RISK :</li>
+					</ul>
+					<ul class="column" style="margin-left:10px;">
+						<li>MyAppName</li>
+						<br>
+						<li>Owner Name</li>
+						<br>
+						<li>000000000</li>
+						<br>
+						<li>ROBOTIC</li>
+						<br>
+						<li>00/00/0200</li>
+						<br>
+						<li>2/10</li>
+					</ul>
+				</div>
+			</div>
+			<div class="column is-three-fifths is-4 is-offset-1 infoComment">
+				<h3 class="subtitle" style="color:#787878; text-align: center">ABOUT US</h3>
+                <p style="text-align:center">
+                    L’entreprise conçoit des solutions robotiques pour soutenir 
+                    une agriculture plus respectueuse de l’environnement.
+                    Oz est le tracteur léger autonome de désherbage et 
+                    d’assistance au maraîchage qui est capable de désherber mécaniquement 
+                    (sans produits chimiques) les rangées de cultures de manière autonome. 
+                    Le défi de l’entreprise étant de proposer un produit qui 
+                    permet aux maraîchers d’améliorer leur productivité et la 
+                    qualité de leurs exploitations pour une agriculture plus respectueuse de l’environnement.
+                </p>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<fieldset>
+					<legend style="margin:20px">INVEST</legend>
+					<div style="text-align:center; padding: 10px">
+						<input type="number" name="" id="" style="line-height: 30px" placeholder="AMOUNT IN EURO">
+						<a class="button is-info">INVEST</a>
+					</div>
+				</fieldset>
+			</div>
+
+		</div>
+		<br>
+		<div class="columns">
+
+		</div>
+
+	</section>
+</body>
+
+</html>
