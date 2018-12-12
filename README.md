@@ -6,3 +6,7 @@
 **project :**
 
 >Inovation in banking
+
+**Techno :**
+- Dot Net
+- SQL DB
